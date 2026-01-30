@@ -41,4 +41,13 @@ python infer_flow.py
 ## 📝 Citation:
 If you find our work interesting and helpful, please consider giving our repo a star. Additionally, if you would like to cite our work, please use the following format:
 ```sh
+@misc{fang2026ecgflowcmrpretrainingecggeneratedcine,
+      title={ECGFlowCMR: Pretraining with ECG-Generated Cine CMR Improves Cardiac Disease Classification and Phenotype Prediction}, 
+      author={Xiaocheng Fang and Zhengyao Ding and Jieyi Cai and Yujie Xiao and Bo Liu and Jiarui Jin and Haoyu Wang and Guangkun Nie and Shun Huang and Ting Chen and Hongyan Li and Shenda Hong},
+      year={2026},
+      eprint={2601.20904},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV},
+      url={https://arxiv.org/abs/2601.20904}, 
+}
 ```
