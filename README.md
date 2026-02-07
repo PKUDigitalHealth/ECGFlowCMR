@@ -64,6 +64,11 @@ python evaluation.py
 ## 🚀 Quick Generation
 You can use our pre-trained model weights for fast ECG to CMR.
 
+### Our Model Checkpoints:
+```sh
+https://huggingface.co/XiaochengFang/ECGFlowCMR
+```
+
 ### Generation:
 ```sh
 python infer_flow.py
