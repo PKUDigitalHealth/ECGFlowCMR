@@ -18,7 +18,7 @@
 
 
 <p align="center">
-    <img src="pic/intro.png" width="90%">
+    <img src="pics/intro.png" width="90%">
 </p>
 
 </h5>
@@ -28,15 +28,17 @@
 Cardiac Magnetic Resonance (CMR) imaging provides a comprehensive assessment of cardiac structure and function but remains constrained by high acquisition costs and reliance on expert annotations, limiting the availability of large-scale labeled datasets. In contrast, electrocardiograms (ECGs) are inexpensive, widely accessible, and offer a promising modality for conditioning the generative synthesis of cine CMR. To this end, we propose ECGFlowCMR, a novel ECG-to-CMR generative framework that integrates a Phase-Aware Masked Autoencoder (PA-MAE) and an Anatomy-Motion Disentangled Flow (AMDF) to address two fundamental challenges: (1) the cross-modal temporal mismatch between multi-beat ECG recordings and single-cycle CMR sequences, and (2) the anatomical observability gap due to the limited structural information inherent in ECGs. Extensive experiments on the UK Biobank and a proprietary clinical dataset demonstrate that ECGFlowCMR can generate realistic cine CMR sequences from ECG inputs, enabling scalable pretraining and improving performance on downstream cardiac disease classification and phenotype prediction tasks.
 
 ## 🎬 Demo
-<img src="video/47.gif"/>
-<img src="video/472.gif"/>
-<img src="video/3490.gif"/>
-<img src="video/4890.gif"/>
+<img src="videos/50.gif"/>
+<img src="videos/388.gif"/>
+<img src="videos/484.gif"/>
+<img src="videos/1470.gif"/>
+<img src="videos/3716.gif"/>
+<img src="videos/4424.gif"/>
 
 ## ⚙️ ECGFlowCMR Training
 
 <p align="center">
-    <img src="pic/method.png" width="90%">
+    <img src="pics/method.png" width="90%">
 </p>
 
 1. Build environment from requirements.txt
