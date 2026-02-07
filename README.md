@@ -18,7 +18,7 @@
 
 
 <p align="center">
-    <img src="pics/intro.png" width="90%">
+    <img src="pic/intro.png" width="90%">
 </p>
 
 </h5>
@@ -36,7 +36,7 @@ Cardiac Magnetic Resonance (CMR) imaging provides a comprehensive assessment of 
 ## ⚙️ ECGFlowCMR Training
 
 <p align="center">
-    <img src="pics/method.png" width="90%">
+    <img src="pic/method.png" width="90%">
 </p>
 
 1. Build environment from requirements.txt
