@@ -27,6 +27,13 @@
 ## Introduction: 
 Cardiac Magnetic Resonance (CMR) imaging provides a comprehensive assessment of cardiac structure and function but remains constrained by high acquisition costs and reliance on expert annotations, limiting the availability of large-scale labeled datasets. In contrast, electrocardiograms (ECGs) are inexpensive, widely accessible, and offer a promising modality for conditioning the generative synthesis of cine CMR. To this end, we propose ECGFlowCMR, a novel ECG-to-CMR generative framework that integrates a Phase-Aware Masked Autoencoder (PA-MAE) and an Anatomy-Motion Disentangled Flow (AMDF) to address two fundamental challenges: (1) the cross-modal temporal mismatch between multi-beat ECG recordings and single-cycle CMR sequences, and (2) the anatomical observability gap due to the limited structural information inherent in ECGs. Extensive experiments on the UK Biobank and a proprietary clinical dataset demonstrate that ECGFlowCMR can generate realistic cine CMR sequences from ECG inputs, enabling scalable pretraining and improving performance on downstream cardiac disease classification and phenotype prediction tasks.
 
+## 🫀 Cardiomyopathy Cases
+We further showcase representative cardiomyopathy cases, including Dilated Cardiomyopathy (DCM) and Hypertrophic Cardiomyopathy (HCM), to evaluate generation fidelity in severe pathological states. Unlike conventional generative models that tend to regress toward a healthy mean anatomy, our method preserves disease-specific structural extremes. It successfully captures ventricular dilation, spherical remodeling, wall thinning, and global hypokinesis in DCM, while accurately reconstructing asymmetric septal hypertrophy and constrained ventricular volumes in HCM. These results highlight the ability of our model to preserve both anatomical morphology and cardiac dynamics under clinically challenging conditions.
+<img src="videos/sample_37.gif"/>
+<img src="videos/sample_121.gif"/>
+<img src="videos/sample_434.gif"/>
+<img src="videos/sample_583.gif"/>
+
 ## 🎬 Demo
 <img src="videos/50.gif"/>
 <img src="videos/388.gif"/>
