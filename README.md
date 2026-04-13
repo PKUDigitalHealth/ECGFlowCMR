@@ -29,10 +29,10 @@ Cardiac Magnetic Resonance (CMR) imaging provides a comprehensive assessment of 
 
 ## 🫀 Cardiomyopathy Cases
 We further showcase representative cardiomyopathy cases, including Dilated Cardiomyopathy (DCM) and Hypertrophic Cardiomyopathy (HCM), to evaluate generation fidelity in severe pathological states. Unlike conventional generative models that tend to regress toward a healthy mean anatomy, our method preserves disease-specific structural extremes. It successfully captures ventricular dilation, spherical remodeling, wall thinning, and global hypokinesis in DCM, while accurately reconstructing asymmetric septal hypertrophy and constrained ventricular volumes in HCM. These results highlight the ability of our model to preserve both anatomical morphology and cardiac dynamics under clinically challenging conditions.
-<img src="videos/sample_37.gif"/>
-<img src="videos/sample_121.gif"/>
-<img src="videos/sample_434.gif"/>
-<img src="videos/sample_583.gif"/>
+<img src="disease/sample_37.gif"/>
+<img src="disease/sample_121.gif"/>
+<img src="disease/sample_434.gif"/>
+<img src="disease/sample_583.gif"/>
 
 ## 🎬 Demo
 <img src="videos/50.gif"/>
